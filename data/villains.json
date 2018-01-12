@@ -1,0 +1,51 @@
+[{
+    "id": 1,
+    "name": "Thanos",
+    "age": 616,
+    "weight": 985,
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/6/00/537bc6a21256d.jpg",
+    "description": "The Mad Titan Thanos, a melancholy, brooding individual, consumed with the concept of death, sought out personal power and increased strength, endowing himself with cybernetic implants until he became more powerful than any of his brethren.",
+    "powers": "Thanos possesses the superhuman physiology of all Eternals, granting him superhuman strength, endurance, reflexes, and agility. His skin in nearly invulnerable, particulary against heat, cold, electricity, radiation, toxins, aging, and disease, and he can survive indefinitely without food or water even before his 'curse' from Death left him immortal, unable to die. His mind is also invulnerable to most forms of psychic attack, and can project a psionic blast of energy as well as blasts of plasma/cosmic energy from his eyes and hands.",
+    "first_appearance": "Iron Man #55 (1973)"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Doom",
+    "age": 34,
+    "weight": 415,
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/9/60/537ba8e5a36c4.jpg",
+    "description": "Victor von Doom was born to the Zefiro travelers (Gypsies) Werner and Cynthia in Latveria, a small European country which grew out of Hungary and was ruled by King Vladimir Vassily Gonereo Tristian Mangegi Fortunov, Baron of Sabbat, Baron of Haasen, Baron of Krozi.",
+    "powers": "Doom can exchange minds with others. He possesses some mystical abilities, such as casting bolts of eldritch energy and invoking mystical entities (principalities) for additional support. While empowered by the Haazareth, his mystical powers were on a par with those of Dr. Strange.",
+    "first_appearance": "Fantastic Four #5 (1962)"
+  },
+  {
+    "id": 3,
+    "name": "Mystique",
+    "age": 28,
+    "weight": 120,
+    "image": "http://1.bp.blogspot.com/_qZTo96fnp8k/SwaMCzUh3_I/AAAAAAAABs4/PFvOTSdi-z0/s640/10352header_banner8651427.jpg",
+    "description": "Little is known about Mystique's past due to the fact that she can eliminate the outward signs of aging with her shape-changing power, and it's not known exactly how old she is. She apparently learned to use her shape-changing power at a very early age, for there is no evidence known to the public or the government that Raven Darkholme ever looked like anything but a normal human being. ",
+    "powers": "Mystique can psionically shift the atoms of her body to duplicate any humanoid of either sex, wearing any kind of clothing. She can precisely duplicate another person’s retina pattern, finger, palm and skin-pore patterns, and vocal cords. She can increase her volume, but not her mass. Mystique’s power grants her age retardation, increased healing, and immunity to drugs and poisons.",
+    "first_appearance": "(as Raven) Ms Marvel #16 (1978); (as Mystique) Ms. Marvel #18 (1978)"
+  },
+  {
+    "id": 4,
+    "name": "Ronan",
+    "age": 74,
+    "weight": 480,
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/c/10/537bcef223ec2.jpg",
+    "description": "Born a Kree on the planet Hala, Ronan joined the Accuser Corps and quickly ascended to the top of the ranks. As The Supreme Accuser, Ronan enforces the laws of the Kree Empire throughout the galaxy and frequently clashes with Earthâ€™s superheroes and other alien races.",
+    "powers": "Can currently adapt his body to survive any hostile environment. Strength-enhancing armor. Generate cold to put certain lifeforms into suspended animation. Render himself 'invisible'.",
+    "first_appearance": "Fantastic Four #65 (1967)"
+  },
+  {
+    "id": 5,
+    "name": "Ultron",
+    "age": 68,
+    "weight": 735,
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/9/a0/537bc7f6d5d23.jpg",
+    "description": "Arguably the greatest and certainly the most horrific creation of scientific genius Dr. Henry Pym, Ultron is a criminally insane rogue sentient robot dedicated to conquest and the extermination of humanity.",
+    "powers": "Ultron's abilities vary with each redesign, but typically include superhuman strength and durability, the power of flight, and various offensive weapons such as concussion blasters, radiation emitters and his 'encephalo-ray', which plunges its victims into a deathlike coma. ",
+    "first_appearance": "Avengers #54 (1968)"
+  }
+]
