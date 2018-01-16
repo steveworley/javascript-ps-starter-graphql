@@ -12,6 +12,9 @@ app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
 app.use('/graphiql', graphiqlExpress({
     endpointURL: '/graphql',
 }));
+app.get('/', function(req, res) {
+  res.send('This is a GraphQL Demo Server ~ !<br><a href="/graphiql">click here</a> to test with the GraphQL API UI.');
+});
 
 /*eslint-disable no-console */
 
