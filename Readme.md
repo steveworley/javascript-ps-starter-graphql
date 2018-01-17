@@ -3,7 +3,7 @@
 
 #### About 
 
-This is a GraphQL server application to be used with a sibling React application for demo and training purposes. This application has a simple schema for the display of a handful of Marvel Villain characters. After installation, you can view the GraphQL API UI for testing at  <a href="http://localhost:8082/graphiql">http://localhost:8082/graphiql</a>. The endpoint path to target from an external application is `http://localhost:8082/graphql`.
+This is a GraphQL server application to be used with a [sibling React application](https://github.com/acquia-pso/javascript-ps-starter-react) for demo and training purposes. This application has a simple schema for the display of a handful of Marvel Villain characters. After installation, you can view the GraphQL API UI for testing at  <a href="http://localhost:8082/graphiql">http://localhost:8082/graphiql</a>. The endpoint path to target from an external application is `http://localhost:8082/graphql`.
 
 - Express
 - GraphQL
@@ -55,6 +55,11 @@ The GraphQL API UI will provide a method to test queries, which you can then rep
   totalVillains
 }
 ```
+
+---------------------------
+<br />
+<img src="https://content.screencast.com/users/BedimStudios/folders/Jing/media/b33ab56b-bbdd-46eb-aada-2bc3c2702361/00002809.png" />
+
 
 
 
