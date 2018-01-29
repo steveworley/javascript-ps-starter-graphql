@@ -59,7 +59,7 @@ class MarvelApi {
         this._cache.comics[id] = comics;
         return comics;
       })
-      .catch(() => this._cache.comics[id]));
+      .catch(() => this._cache.comics[id]);
   }
 
 }
