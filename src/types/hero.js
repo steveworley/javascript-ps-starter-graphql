@@ -1,16 +1,18 @@
-
-// The data.
 import heroesList from '../../data/heroes'
 import villainList from '../../data/villains';
+import { api as MarvelApi } from '../helper/MarvelApi';
 
 import villains from './villain';
+import comics from './comic';
 
 const schema = `
   type Hero {
     id: ID!
     name: String!
     image: String
+    description: String
     villains: [Villain]
+    comics: [Comic]
   }
 `;
 
@@ -34,7 +36,8 @@ const resolvers = {
         badGuys.push(villainList.find(vil => villain === vil.name));
       }
       return badGuys;
-    }
+    },
+    comics: ({ id }) => MarvelApi.comics(id)
   }
 }
 
@@ -42,5 +45,5 @@ export default () => ({
   schema,
   queries,
   resolvers,
-  modules: [villains]
+  modules: [villains, comics]
 })
