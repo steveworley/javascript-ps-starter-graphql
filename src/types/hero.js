@@ -1,6 +1,6 @@
 import heroesList from '../../data/heroes'
 import villainList from '../../data/villains';
-import { api as MarvelApi } from '../helper/MarvelApi';
+import { api as MarvelApi } from '../poc/MarvelApiController';
 
 import villains from './villain';
 import comics from './comic';

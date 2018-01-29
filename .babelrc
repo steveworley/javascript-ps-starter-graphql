@@ -1,6 +1,7 @@
 {
     "presets": ["env"],
     "plugins": [
-        "babel-plugin-inline-import"
+        "babel-plugin-inline-import",
+        "transform-class-properties"
     ]
 }
