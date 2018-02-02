@@ -1,9 +1,10 @@
-import crypto from 'crypto';
-import fetch from 'node-fetch';
+import crypto from 'crypto'
+import fetch from 'node-fetch'
 
 // Import classes to assist with formatting the API response into a structure
 // that represents the GraphQL Schema for the type in the graphql server.
-import { Model as Comic } from '../types/comic';
+import { Model as Comic } from '../types/comic'
+import { Model as Character } from '../types/hero'
 
 /**
 ---- ENVIRONMENT VARIABLES ----
@@ -36,12 +37,19 @@ class MarvelApi {
     console.log(error);
   }
 
-  characters() {
-    const url = `${this.url}/characters?${this.params}`;
+  characters(name = null) {
+    let params = this.params
+    if (!!name) {
+      params += `&name=${name}`
+    }
+
+    const url = `${this.url}/characters?${params}`;
 
     return fetch(url)
       .then(res => res.json())
-      .then()
+      .then(json => {
+        return json.data.results.map(i => new Character(i))
+      })
       .catch(this.handleErrors);
   }
 
