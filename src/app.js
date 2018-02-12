@@ -8,7 +8,11 @@ const app = express();
 const port = 8082;
 
 app.use(cors());
-app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
+app.use('/graphql', bodyParser.json(), graphqlExpress({
+  schema,
+  tracing: true,
+  cacheControl: true
+}));
 app.use('/graphiql', graphiqlExpress({
     endpointURL: '/graphql',
 }));
