@@ -6,11 +6,9 @@ for those objects are resolved.
 
 ## Boilerplate
 
-The boilerplate makes use of `GraphQL-modules` and `GraphQL-tools` to allow types
-to be defined modularly. Each module will define a discrete GrahpQL type and all
-query/mutation interactions. When the bootstrap file includes a new module it will append the type defined to the **Root** object.
+The boilerplate makes use of `graphql-modules` and `graphql-tools` to allow types to be defined modularly. Each module will define a discrete GrahpQL type and all query/mutation interactions. When the bootstrap file includes a new module it will append the type defined to the **Root** object.
 
-Each module is expected to return an object that is compatible with the `bundle` method from `GraphQL-modules`.
+Each module is expected to return an object that is compatible with the `bundle` method from `graphql-modules`.
 
 ``` javascript
 export default () => {
@@ -148,7 +146,7 @@ mutation CreateTodo($title: String, $completed: Boolean) {
 
 ## Tying everything up with the Resolver
 
-The resolver defines what functions will be called when the type is queried for. The resolver object should match what is expected by `GraphQL-tools` and looks like:
+The resolver defines what functions will be called when the type is queried for. The resolver object should match what is expected by `graphql-tools` and looks like:
 
 ``` javascript
 const resolvers = {
@@ -170,6 +168,11 @@ const resolvers = {
 ## Adding your new type to the application
 
 The `src/schema.js` file manages all GraphQL datasets. After you have created your new GraphQL type you need to import your type into the `schema.js` file and add your type to the list of modules.
+
+``` javascript
+import todo from 'types/todo'
+const modules = [todo]
+```
 
 ## Resources
 
